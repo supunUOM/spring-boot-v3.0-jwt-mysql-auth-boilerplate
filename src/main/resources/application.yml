@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://sql12.freesqldatabase.com/sql12608431
+    username: sql12608431
+    password: cnaNrrbdM1
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+
